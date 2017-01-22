@@ -1,0 +1,11 @@
+turbine:
+  appConfig: feign-consumer,ribbon-consumer
+#            所要监控的app名称
+  clusterNameExpression: "'default'"
+#                        如果没有定义元数据的集群cluster名称，就选default
+#如果有具体定义集群名称，如下配置：
+#turbine:
+#  appConfig: feign-consumer,ribbon-consumer
+#  aggregator:
+#    clusterConfig: compute-consumer
+#  clusterNameExpression: metadata['cluster']
