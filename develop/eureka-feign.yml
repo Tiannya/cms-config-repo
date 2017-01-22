@@ -1,0 +1,8 @@
+server:
+  port: 2222
+
+eureka:
+  instance:
+    hostname: localhost
+#    metadata-map:
+#      cluster: compute-consumer 在元数据中定义集群名称
