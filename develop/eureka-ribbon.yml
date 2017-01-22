@@ -1,0 +1,9 @@
+server:
+  port: 2223
+
+eureka:
+  instance:
+    hostname: 139.24.120.151
+#            turbine里的bug，同一集群中的不同实例不能写一样的hostname，否则只会获取一个实例
+#    metadata-map:
+#      cluster: compute-consumer 在元数据中定义集群名称
